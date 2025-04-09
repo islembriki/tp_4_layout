@@ -43,7 +43,7 @@ public class third_part extends JFrame {
         pangrid.setBorder(BorderFactory.createCompoundBorder(gridTitle, new EmptyBorder(10, 10, 10, 10)));
 
         panbv = new JPanel(new BorderLayout());
-        panbv.setBorder(new EmptyBorder(0, 250, 0, 0));
+        panbv.setBorder(new EmptyBorder(0, 250, 0, 20));
         center.add(panbv,BorderLayout.CENTER);
         bv= Box.createVerticalBox();
         //JPanel wrapper = new JPanel(new FlowLayout(FlowLayout.LEFT));
@@ -62,4 +62,8 @@ public class third_part extends JFrame {
         //panbv.add(wrapper, BorderLayout.CENTER);
     }
 }
+
+
+
+
 
