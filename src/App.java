@@ -21,7 +21,5 @@ public class App {
         cal2.setVisible(true);
         third_part thirdPartExample = new third_part();
         thirdPartExample.setVisible(true);
-
-
     }
 }
