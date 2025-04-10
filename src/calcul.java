@@ -21,7 +21,7 @@ public class calcul extends JFrame {
         txt.setPreferredSize(new Dimension(0, 40));//stretchy widtch ?  Width = 0 → means the layout will stretch it as needed horizontally
         //contenu.add(txt, BorderLayout.NORTH);
         JPanel txtWrapper = new JPanel(new BorderLayout());
-        txtWrapper.setBorder(new EmptyBorder(10, 10, 0, 10)); // top, left, bottom, right
+        txtWrapper.setBorder(new EmptyBorder(10, 10, 0, 10)); 
         txtWrapper.add(txt, BorderLayout.CENTER);
         contenu.add(txtWrapper, BorderLayout.NORTH);
         pan.setLayout(new GridLayout(5, 4, 5, 5));
@@ -41,6 +41,13 @@ public class calcul extends JFrame {
         this.setLocationRelativeTo(null);
     }
 }
+
+
+
+
+
+
+
 //explication lil padding :
 /*
  * The EmptyBorder class is a subclass of Border that creates an empty border with specified insets (top, left, bottom, right).

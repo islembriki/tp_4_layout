@@ -16,7 +16,6 @@ public class App {
         sixthWindow.setVisible(false);
         calcul cal=new calcul();
         cal.setVisible(false);
-        
 //--------------------------------------------------------------------
         calcul cal2=new calcul();
         cal2.setVisible(true);
@@ -24,3 +23,4 @@ public class App {
         thirdPartExample.setVisible(true);
     }
 }
+
